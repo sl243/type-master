@@ -17,8 +17,65 @@
 <body>
     <section>
         <div>
-            <h1 class="text-white text-center mt-5">difference between local storage and session storage</h1>
-            <p></p>
+            <h1 class="text-white text-center mt-5">Difference between local storage and session storage</h1>
+            <table class="container table table-striped mt-5">
+                <thead class="text-center text-white">
+                    <tr>
+                        <th scope="col">Local Storage</th>
+                        <th scope="col">Session Storage</th>
+                    </tr>
+                </thead>
+                <tbody class="text-white">
+                    <tr>
+                        <td class="text-white">
+                            <strong>Local Storage:</strong> This read-only interface property provides access to the
+                            Document's local
+                            storage object, the stored data is stored across browser sessions.
+                        </td>
+                        <td class="text-white">
+                            <strong>Session Storage:</strong> Session Storage objects can be accessed using the
+                            sessionStorage read-only property.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-white">
+                            <p>Local Storage has 4 methods:</p>
+                            <p>1. setItem() Method - This method takes two parameters one is key and another one is
+                                value.
+                                It is used to store the value in a particular location with the name of the key.</p>
+                            <p> localStorage.setItem(key, value)</p>
+                            <p>2. getItem() Method - This method takes one parameter that is key which is used to get
+                                the value stored with a particular key name.</p>
+                            <p>localStorage.getItem(key)</p>
+                            <p>3. removeItem() Method - This is method is used to remove the value stored in the memory
+                                in reference to key.</p>
+                            <p>localStorage.removeItem(key)</p>
+                            <p>4. clear() Method - This method is used to clear all the values stored in localstorage.
+                            </p>
+                            <p>localStorage.clear()</p>
+                        </td>
+                        <td class="text-white">
+                            <p>Session Storage has 4 methods:</p>
+                            <p>1. setItem() Method - This method takes two parameters one is key and another one is
+                                value. It is used to store the value in a particular location with the name of the key.
+                            </p>
+                            <p>sessionStorage.setItem(key, value)</p>
+                            <p>2. getIteam() Method - This method takes one parameter that is key which is used to get
+                                the value stored with a particular key name.
+                            </p>
+                            <p>sessionStorage.getItem(key)</p>
+                            <p>3. removeItem() Method - This is method is used to remove the value stored in the memory
+                                in reference to key.
+                            </p>
+                            <p>sessionStorage.removeItem(key)</p>
+                            <p>4. clear() Method - This method is used to clear all the values stored in the session
+                                storage
+                            </p>
+                            <p>sessionStorage.clear()</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
