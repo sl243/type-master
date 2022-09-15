@@ -20,13 +20,13 @@
         <div>
             <h1 class="text-success text-center mt-5">Difference between local storage and session storage</h1>
             <table class="container table table-striped mt-5">
-                <thead class="text-center text-success">
+                <thead class="text-center text-primary fs-2">
                     <tr>
                         <th scope="col">Local Storage</th>
                         <th scope="col">Session Storage</th>
                     </tr>
                 </thead>
-                <tbody class="text-white">
+                <tbody class="text-white fs-5">
                     <tr>
                         <td class="text-white">
                             <strong>Local Storage:</strong> This read-only interface property provides access to the
@@ -81,7 +81,7 @@
         <!-- second question and answer -->
         <div class="container">
             <h1 class="text-success text-center mt-5">Difference between Global scope and Block scope</h1>
-            <div class="text-white">
+            <div class="text-white fs-5">
                 <p><strong>Global scope:</strong> A variable exists inside or outside a block. If a variable is declared
                     outside all functions or curly
                     braces ({}), it exists in the global scope. The global variables can be accessed by any line of code
@@ -98,19 +98,32 @@
         <!-- third question and answer -->
         <div class="container text-white">
             <h1 class="text-success text-center mt-5">How to work event loop JavaScript ?</h1>
-            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
-                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
-                which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+            <div class="fs-5">
+                <p><strong>Event Loop:</strong> JavaScript has a runtime model based on an event loop, which is
+                    responsible
+                    for executing the code, collecting and processing events, and executing queued sub-tasks.</p>
+                <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the
+                    Call Stack
+                    is empty, the Event Loop will take the first event from the queue and will push it to the Call
+                    Stack,
+                    which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+            </div>
         </div>
         <!-- fourth question and answer -->
-        <div class="container text-white">
+        <div class="container text-white mb-5">
             <h1 class="text-success text-center mt-5">How to get undefined value in javascript ?</h1>
-            <p>If you want to access any variable that is not declared yet or
-                has no value in it then you will get an undefined.</p>
-            <p>If you dont return anything from a function but you want to assign the function to a variable or console
-                the function then you will get undefined.</p>
-            <p>You will get undefined value when you call a
-                non-existent property or method of an object.</p>
+            <div class="fs-5">
+                <p>1. Undefined is a type by itself (undefined).</p>
+                <p>2. Unassigned variables are initialized by JavaScript with a default value of undefined.</p>
+                <p>3. The variable is declared but not assigned to any value, the variable by default is assigned a
+                    value
+                    of undefined.</p>
+                <p>4. If you dont return anything from a function but you want to assign the function to a variable or
+                    console
+                    the function then you will get undefined.</p>
+                <p>5. Undefined value when you call a
+                    non-existent property or method of an object.</p>
+            </div>
         </div>
     </section>
 
