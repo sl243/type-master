@@ -13,7 +13,6 @@ let startTime;
 let questionText = "";
 
 // Load and display question
-// fetch("./texts.json")
 fetch("./texts.json")
   .then((res) => res.json())
   .then((data) => {
@@ -110,10 +109,6 @@ const start = () => {
 
   const startCountdown = setInterval(() => {
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
-
-    // if (count === 0) {
-    //   countdownOverlay.display = 'none'
-    // }
 
     // finished timer
     if (count == 0) {
